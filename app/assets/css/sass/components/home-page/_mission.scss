@@ -1,0 +1,41 @@
+.mission {
+    margin-top: 100px;
+    &-wrap {
+        margin-top: 69px;
+    }
+    &-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        row-gap: 30px;
+        column-gap: clamp(20px, 2.8vw, 40px);
+        @media (min-width: 1080px) {
+            margin-left: 100px;
+        }
+        @media (max-width: 839pc) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    &-item {
+        @media (min-width: 460px) {
+            max-width: 200px;
+        }
+        &-number {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 142%;
+            color: var(--clr-300);
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 184%;
+        }
+    }
+    &-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 184%;
+    }
+}
