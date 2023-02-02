@@ -1,7 +1,13 @@
 .mission {
     margin-top: 100px;
+    @media (max-width: 767px) {
+        margin-top: 40px;
+    }
     &-wrap {
         margin-top: 69px;
+        @media (max-width: 767px) {
+            margin-top: 40px;
+        }
     }
     &-items {
         display: grid;
