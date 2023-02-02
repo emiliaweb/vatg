@@ -1,0 +1,21 @@
+.second {
+    margin-top: 40px;
+    overflow: hidden;
+    &-title {
+        max-width: 460px;
+    }
+    &-btn {
+        margin-top: 40px;
+    }
+    &-img {
+        @media (min-width: 1260px) {
+            margin-right: -80px;
+        }
+        img {
+            width: 100%;
+            max-width: 818px;
+            height: 568px;
+            object-fit: cover;
+        }
+    }
+}

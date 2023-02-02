@@ -1,9 +1,11 @@
 .btn {
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     border: 1px solid var(--clr-300);
-    padding: 10px 12px;
+    padding: 13px 24px;
     &--rounded {
         border-radius: 55px;
+        padding: 10px 12px;
     }
 }

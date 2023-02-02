@@ -1,0 +1,13 @@
+.hero {
+    margin-top: 60px;
+    &-title {
+        span {
+            font-weight: 300;
+        }
+        @media (max-width: 767px) {
+            br {
+                display: none;
+            }
+        }
+    }
+}

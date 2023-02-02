@@ -1,0 +1,12 @@
+.layout {
+    &-grid {
+        display: grid;
+        grid-template-columns: 542px 1fr;
+        &.ai-center {
+            align-items: center;
+        }
+    }
+    &-col {
+
+    }
+}
