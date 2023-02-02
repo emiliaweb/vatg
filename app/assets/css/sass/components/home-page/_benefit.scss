@@ -1,0 +1,39 @@
+.benefit {
+    margin-top: 100px;
+    background: url('../img/home-page/construction-bg.jpg') left top / cover no-repeat;
+    padding: 20px 0 40px;
+    @media (max-width: 767px) {
+        margin-top: 80px;
+        background: none;
+        padding: 0;
+    }
+    &-grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 356px);
+        grid-auto-rows: auto;
+        column-gap: 86px;
+        row-gap: 45px;
+        @media (min-width: 1080px) {
+            margin-left: 100px;
+        }
+        @media (max-width: 839px) {
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+            margin-top: 35px;
+        }
+    }
+    &-item {
+        &-title {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+        }
+        &-text {
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 184%;
+        }
+    }
+}
