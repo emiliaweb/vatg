@@ -1,7 +1,9 @@
 .header {
     background-color: var(--clr-200);
     padding: 12px 0;
-    position: relative;
+    @media (max-width: 767px) {
+        padding: 7px 0;
+    }
     &-overlay {
         position: fixed;
         left: 0;
@@ -23,6 +25,12 @@
         justify-content: space-between;
         align-items: center;
     }
+    &-logo {
+        max-width: 136px;
+        @media (max-width: 767px) {
+            max-width: 76px;
+        }
+    }
     &-middle {
         display: flex;
         align-items: center;
@@ -31,6 +39,10 @@
     &-number {
         font-weight: 400;
         font-size: 20px;
+        white-space: nowrap;
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
     }
     &-menu {
         position: relative;
@@ -73,6 +85,11 @@
             z-index: 100;
             visibility: hidden;
             min-height: 410px;
+            @media (max-width: 767px) {
+                width: 100%;
+                padding: 20px 40px;
+                min-height: 350px;
+            }
             &--active {
                 visibility: visible;
                 transform: scale(1);
@@ -88,6 +105,9 @@
             font-weight: 400;
             font-size: 20px;
             line-height: 160%;
+            @media (max-width: 767px) {
+                font-size: 16px;
+            }
         }
         &-item {
             &:not(:first-child) {
