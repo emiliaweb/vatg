@@ -1,5 +1,8 @@
 .footer {
     padding: 75px 0;
+    @media (max-width: 575px) {
+        padding: 24px 0;
+    }
     background-color: var(--clr-200);
     &-wrap {
         display: flex;
