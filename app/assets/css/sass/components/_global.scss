@@ -1,0 +1,20 @@
+* {
+    font-family: var(--ff-primary);
+    color: var(--clr-400);
+}
+
+.outer-container {
+
+}
+
+.inner-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    transition: color .3s;
+    &:hover {
+        color: var(--clr-300);
+    }
+}

@@ -1,0 +1,9 @@
+.btn {
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--clr-300);
+    padding: 10px 12px;
+    &--rounded {
+        border-radius: 55px;
+    }
+}
