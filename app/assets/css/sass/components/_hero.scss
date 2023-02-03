@@ -27,5 +27,11 @@
             height: 100%;
             object-fit: cover;
         }
+        picture {
+            display: inline;
+        }
+    }
+    &-text {
+        margin-top: 40px;
     }
 }
