@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/areas.min.css">
 </head>
 <body>    
     <header class="header">
@@ -71,6 +72,57 @@
         </div>
     </section>
 
+    <section class="service">
+        <div class="inner-container">
+            <h2 class="title title--big">
+                <img src="assets/img/icons/areas-service.png" alt="service" class="title-icon" aria-hidden="true">
+                Сервисные услуги при строительстве и ремонте скважин
+            </h2>
+            <div class="layout-grid service-grid">
+                <div class="layout-col">
+                    <div class="text-100 service-text">
+                        <ul>
+                            <li>Инструменты для ликвидаций аварий в скважинах: ловильный, фрезерующий, ударный.</li>
+                            <li>Буровой инструмент и элементы низа буровой колонны, включая компоненты из немагнитного материала.</li>
+                            <li>Порода-разрушающий инструмент.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="layout-col">
+                    <div class="service-slider">
+                        <div class="swiper service-swiper" data-id="1" id="serviceSwiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide service-slide">
+                                    <div class="service-img">
+                                        <img src="assets/img/areas/service-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide service-slide">
+                                    <div class="service-img">
+                                        <img src="assets/img/areas/service-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide service-slide">
+                                    <div class="service-img">
+                                        <img src="assets/img/areas/service-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-nav">
+                            <div class="service-nav-prev" id="servicePrev1">
+                                <img src="assets/img/icons/arrow-left.svg" alt="left">
+                            </div>
+                            <div class="service-nav-next" id="serviceNext1">
+                                <img src="assets/img/icons/arrow-right.svg" alt="right">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact" id="contact">
         <div class="inner-container">
             <div class="layout-grid ai-center contact-grid">
@@ -122,6 +174,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/service.js"></script>
     <script src="assets/js/header.js"></script>
 </body>
 </html>
