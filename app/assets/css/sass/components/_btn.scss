@@ -9,4 +9,11 @@
         border-radius: 55px;
         padding: 10px 12px;
     }
+    &--orange {
+        background: var(--clr-300);
+        color: var(--clr-100);
+        &:hover {
+            color: var(--clr-400);
+        }
+    }
 }

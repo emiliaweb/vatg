@@ -1,0 +1,28 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/animations';
+
+@import 'components/global';
+@import 'components/title';
+@import 'components/btn';
+
+.background {
+    background: url('../img/404.jpg') center bottom / cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.block {
+    padding: 27px 32px 47px 40px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 576px;
+    margin-left: 171px;
+    @media (max-width: 1023px) {
+        margin: 0 auto;
+    }
+}
