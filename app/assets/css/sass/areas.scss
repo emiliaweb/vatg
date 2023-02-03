@@ -20,6 +20,9 @@
     overflow: hidden;
     @media (max-width: 839px) {
         margin-top: 30px;
+        &.mt-80 {
+            margin-top: 80px;
+        }
     }
     &-text {
         @media (min-width: 840px) {
