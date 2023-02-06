@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/strategy.min.css">
 </head>
 <body>    
     <header class="header">
         <div class="header-overlay" data-overlay tabindex="-1" aria-hidden="true"></div>
-        <div class="inner-container">
+        <div class="inner-container" data-aos="fade-down">
             <div class="header-wrap">
                 <a href="/vatg/app/" class="header-logo">
                     <img src="assets/img/vatg-logo.png" alt="VATG">
@@ -50,7 +51,7 @@
                                 <a href="/vatg/app/strategy.html">Стратегия</a>
                             </li>
                             <li class="header-menu-item">
-                                <a href="/vatg/app/areas.html">Направления деятельности</a><!-- /vatg/app/areas.html -->
+                                <a href="/vatg/app/areas.html">Направления деятельности</a>
                             </li>
                         </ul>
                     </nav>
@@ -61,8 +62,8 @@
 
     <section class="hero">
         <div class="inner-container">
-            <h1 class="title title--large hero-title">Стратегия</h1>
-            <div class="hero-banner">
+            <h1 class="title title--large hero-title" data-aos-delay="300" data-aos="fade-up">Стратегия</h1>
+            <div class="hero-banner" data-aos-delay="400" data-aos="fade-up">
                 <picture>
                     <source media="(max-width: 575px)" srcset="assets/img/strategy-page/hero-banner-mob.jpg">
                     <img src="assets/img/strategy-page/hero-banner.jpg" alt="areas">
@@ -73,21 +74,21 @@
 
     <section class="keys">
         <div class="inner-container">
-            <h2 class="title title--big keys-title">Стратегия развития Компании базируется на трех ключевых принципах</h2>
+            <h2 class="title title--big keys-title" data-aos="fade-up">Стратегия развития Компании базируется на трех ключевых принципах</h2>
             <div class="keys-wrap">
-                <div class="keys-item">
+                <div class="keys-item" data-aos-delay="100" data-aos="fade-up">
                     <div class="keys-item-icon">
                         <img src="assets/img/icons/keys-1.png" alt="">
                     </div>
                     <div class="keys-item-text text-100">Предложенные решения приносят безусловную ценность заказчику</div>
                 </div>
-                <div class="keys-item">
+                <div class="keys-item" data-aos-delay="200" data-aos="fade-up">
                     <div class="keys-item-icon">
                         <img src="assets/img/icons/keys-2.png" alt="">
                     </div>
                     <div class="keys-item-text text-100">Развитие долгосрочных и взаимовыгодных отношений, основанных на принципах уважения и профессионализма</div>
                 </div>
-                <div class="keys-item">
+                <div class="keys-item" data-aos-delay="300" data-aos="fade-up">
                     <div class="keys-item-icon">
                         <img src="assets/img/icons/keys-3.png" alt="">
                     </div>
@@ -101,14 +102,14 @@
         <div class="inner-container">
             <div class="layout-grid ai-center contact-grid">
                 <div class="layout-col">
-                    <div class="contact-img">
+                    <div class="contact-img" data-aos="fade">
                         <img src="assets/img/contact-img.jpg" alt="Worker">
                     </div>
                 </div>
                 <div class="layout-col">
-                    <h2 class="title title--big">Оставьте заявку</h2>
-                    <div class="contact-text">Заполните форму, и наши специалисты свяжутся с вами в самые кратчайшие сроки.</div>
-                    <form class="contact-form">
+                    <h2 class="title title--big" data-aos="fade-up">Оставьте заявку</h2>
+                    <div class="contact-text" data-aos="fade-up" data-aos-delay="100">Заполните форму, и наши специалисты свяжутся с вами в самые кратчайшие сроки.</div>
+                    <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
                         <input type="tel" placeholder="Номер телефона">
                         <button>
                             Отправить
@@ -132,14 +133,14 @@
     <footer class="footer">
         <div class="inner-container">
             <div class="footer-wrap">
-                <a href="/vatg/app/" class="footer-logo">
+                <a href="/vatg/app/" class="footer-logo" data-aos-delay="" data-aos="fade-up">
                     <img src="assets/img/vatg-logo.png" alt="VATG logo">
                 </a>
-                <div class="footer-middle">
+                <div class="footer-middle" data-aos-delay="100" data-aos="fade-up">
                     <a href="tel:+77775555555 " class="footer-number">+7 777 555 55 55 </a>
                     <a href="#contact" class="btn btn--rounded">Обратный звонок</a>
                 </div>
-                <nav class="footer-nav">
+                <nav class="footer-nav" data-aos-delay="200" data-aos="fade-up">
                     <a href="/vatg/app/about.html" class="footer-nav-link">О компании</a>
                     <a href="/vatg/app/strategy.html" class="footer-nav-link">Стратегия</a>
                     <a href="/vatg/app/areas.html" class="footer-nav-link">Направления деятельности</a>
@@ -148,6 +149,8 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/header.js"></script>
 </body>
 </html>
