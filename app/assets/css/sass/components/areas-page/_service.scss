@@ -50,7 +50,7 @@
     }
     &-nav {
         --nav-pos: -40px;
-        @media (max-width: 1399px) {
+        @media (max-width: 1279px) {
             --nav-pos: 0;
         }
         &-prev, &-next {

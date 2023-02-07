@@ -55,6 +55,9 @@
     }
     &-img {
         margin-left: -80px;
+        @media (min-width: 1280px) and (max-width: 1399px) {
+            margin-left: -120px;
+        }
         img {
             max-width: 602px;
             width: 100%;
