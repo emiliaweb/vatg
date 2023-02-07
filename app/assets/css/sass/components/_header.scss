@@ -38,7 +38,7 @@
     }
     &-number {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         white-space: nowrap;
         @media (max-width: 767px) {
             font-size: 16px;
@@ -104,7 +104,7 @@
         }
         &-item, &-item a{
             font-weight: 400;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 160%;
             @media (max-width: 767px) {
                 font-size: 16px;

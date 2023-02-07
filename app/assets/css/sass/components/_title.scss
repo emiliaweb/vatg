@@ -1,7 +1,7 @@
 .title {
     &--large {
         font-weight: 600;
-        font-size: 58px;
+        font-size: 56px;
         line-height: 120%;
         @media (max-width: 1240px) {
             font-size: clamp(20px, 5vw, 50px);
@@ -9,10 +9,10 @@
     }
     &--big {
         font-weight: 500;
-        font-size: 36px;
+        font-size: 32px;
         line-height: 142%;
         @media (max-width: 1240px) {
-            font-size: clamp(20px, 3vw, 34px);
+            font-size: clamp(20px, 3vw, 32px);
         }
     }
     &-icon {

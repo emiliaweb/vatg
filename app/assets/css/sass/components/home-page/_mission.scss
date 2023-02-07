@@ -30,19 +30,14 @@
         }
         &-number {
             font-weight: 500;
-            font-size: 36px;
+            font-size: 34px;
             line-height: 142%;
             color: var(--clr-300);
         }
-        &-text {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 184%;
-        }
     }
-    &-text {
+    &-text, &-item-text {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 184%;
     }
 }
