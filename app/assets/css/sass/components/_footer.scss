@@ -7,17 +7,22 @@
     &-wrap {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 40px;
         row-gap: 30px;
+        @media (max-width: 1139px) {
+            flex-wrap: wrap;
+            // justify-content: unset;
+        }
     }
     &-logo {
-        margin-right: 77px;
+        // margin-right: 77px;
     }
     &-middle {
         display: flex;
         flex-direction: column;
         row-gap: 13px;
-        margin-right: clamp(20px, 12vw, 162px);
+        // margin-right: clamp(20px, 12vw, 162px);
     }
     &-number {
         font-weight: 400;
@@ -30,7 +35,7 @@
     &-nav {
         display: flex;
         column-gap: clamp(15px, 3vw, 44px);
-        @media (max-width: 575px) {
+        @media (max-width: 1439px) { //575
             flex-direction: column;
             row-gap: 20px;
         }
@@ -39,5 +44,12 @@
             font-size: 14px;
             line-height: 184%;
         }
+    }
+    &-address {
+        font-style: normal;
+        max-width: 400px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 184%;
     }
 }
