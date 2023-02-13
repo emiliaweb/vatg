@@ -18,4 +18,8 @@ window.addEventListener('DOMContentLoaded', () => {
         overlay.classList.remove('header-overlay--active');
         dropdown.classList.remove('header-menu-dropdown--active');
     });
-})
+});
+
+// const base = document.createElement('base');
+// base.href = 'https://emiliaweb.github.io/vatg/app/';
+// document.head.append(base);
