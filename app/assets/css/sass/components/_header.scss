@@ -6,10 +6,12 @@
     }
     &-side {
         display: flex;
-        column-gap: 10px;
+        column-gap: clamp(4px,.7vw,10px);
         align-items: center;
+        white-space: nowrap;
     }
     &-lang {
+        font-size: clamp(12px,3vw,18px);
         &-item {
             &--active {
                 color: var(--clr-300);
