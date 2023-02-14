@@ -17,6 +17,12 @@
     &-banner {
         margin-top: 28px;
         height: clamp(200px, 28vw, 400px);
+        @media (min-width: 768px) {
+            aspect-ratio: 14/4.2;
+        }
+        @media (max-width: 1023px) {
+            // width: 100vw;
+        }
         @media (max-width: 767px) {
             margin-top: 20px;
             margin-right: -20px;
