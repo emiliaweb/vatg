@@ -34,8 +34,10 @@
         }
         img {
             width: 100%;
-            max-width: 818px;
-            height: 568px;
+            // max-width: 818px;
+            // height: 568px;
+            max-height: 568px;
+            aspect-ratio: 4/2.5;
             object-fit: cover;
             @media (max-width: 1023px) {
                 height: 380px;
